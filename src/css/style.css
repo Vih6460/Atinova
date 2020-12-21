@@ -1,0 +1,59 @@
+body{
+    /* background: black; */
+    font-family: 'Merriweather', serif;
+    max-width: 100%!important;
+}
+
+nav{
+    background: rgb(255,255,0);
+    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 80%, rgb(255, 255, 0) 100%);
+    background-attachment: fixed;
+}
+
+nav a{
+    color: rgb(255, 255, 255)!important;
+    text-shadow: 0 0 0.2em #000000, 0 0 0.2em #000000, 0 0 0.2em #000000;
+}
+
+#titulo-principal{
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 0.2em #000000, 0 0 0.2em #000000, 0 0 0.2em #000000;
+
+    margin-top: 130px;
+}
+
+.imagem-carrosel {
+    /* Mantém proporção */
+    object-fit: cover; 
+    /* altera posição: eixo x e y */
+    object-position: 0 60%;
+    /* ajusta tamanho */
+    width: 100%!important;
+    height: 400px;
+    border-radius: 30px;
+
+    /* padding: 1%; */
+}
+
+.texto-sombreado{
+    text-shadow: 0 0 0.2em #000000, 0 0 0.2em #000000, 0 0 0.2em #000000;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    /* height: 200px; */
+}
+
+.btn-detalhes{
+    background-color: yellow;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 800px){
+    .imagem-carrosel{
+        height: 300px;
+    }
+}
