@@ -10,7 +10,7 @@ body{
 
 nav{
     background: rgb(255,255,0);
-    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 80%, rgb(255, 255, 0) 100%);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.493) 80%, rgb(240, 240, 0) 100%);
     background-attachment: fixed;
 }
 
@@ -20,18 +20,26 @@ nav a{
     text-shadow: 0 0 0.1em #ffffff, 0 0 0.1em #ffffff, 0 0 0.1em #ffffff;
 }
 
+.texto-no-meio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #titulo-principal{
     color: rgb(0, 0, 0);
     text-align: center;
     /* text-shadow: 0 0 0.2em #000000, 0 0 0.2em #000000, 0 0 0.2em #000000; */
     margin-top: 130px;
     font-weight: bold;
+    font-size: 50px;
 }
 
 #titulo-secundario{
     color: rgb(0, 0, 0);
     text-align: center;
     /* text-shadow: 0 0 0.2em #000000, 0 0 0.2em #000000, 0 0 0.2em #000000; */
+    font-size: 30px;
 }
 
 .fotoEntregaChave{
