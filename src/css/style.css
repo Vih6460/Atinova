@@ -17,7 +17,6 @@ nav{
 nav a{
     color: rgb(0, 0, 0)!important;
     font-size: 20px;
-    text-shadow: 0 0 0.1em #ffffff, 0 0 0.1em #ffffff, 0 0 0.1em #ffffff;
 }
 
 .texto-no-meio{
@@ -29,7 +28,6 @@ nav a{
 #titulo-principal{
     color: rgb(0, 0, 0);
     text-align: center;
-    /* text-shadow: 0 0 0.2em #000000, 0 0 0.2em #000000, 0 0 0.2em #000000; */
     margin-top: 20px;
     font-weight: bold;
     font-size: 50px;
