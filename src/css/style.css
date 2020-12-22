@@ -1,8 +1,3 @@
-html{
-    max-width: 100vw;
-    height: 100%;
-}
-
 body{
     font-family: 'Merriweather', serif;
     width: 100%;
@@ -57,13 +52,17 @@ nav a{
     margin-top: 150px;
 }
 
+.carousel-indicators{
+    display: none
+}
+
 .texto-sombreado{
     text-shadow: 0 0 0.2em #000000, 0 0 0.2em #000000, 0 0 0.2em #000000;
 }
 
 
 #texto2{
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -81,6 +80,10 @@ nav a{
     justify-content: center;
 }
 
+.mobile{
+    display: none!important;
+}
+
 footer{
     background-color: black;
 }
@@ -89,8 +92,40 @@ footer p{
     color: white;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 991px){
     .imagem-carrosel{
         height: 300px;
+    }
+
+    .fotoEntregaChave{
+        display: none;
+    }
+
+    .imagem-carrosel{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 980px){
+    .titulo-principal h1{
+        font-size: 10vh!important;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .texto-carrosel{
+        font-size: 20px!important;
+        width: 67vw;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .desktop{
+        display: none!important;
+    }
+
+    .mobile{
+        display: block!important;
     }
 }
