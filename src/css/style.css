@@ -1,7 +1,16 @@
+html{
+    max-width: 100vw;
+    height: 100%;
+}
+
 body{
-    /* background: black; */
     font-family: 'Merriweather', serif;
-    max-width: 100%!important;
+    width: 100%;
+    background-image: url(../img/3433814.jpg);
+    background-attachment: fixed!important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 nav{
@@ -11,16 +20,28 @@ nav{
 }
 
 nav a{
-    color: rgb(255, 255, 255)!important;
-    text-shadow: 0 0 0.2em #000000, 0 0 0.2em #000000, 0 0 0.2em #000000;
+    color: rgb(0, 0, 0)!important;
+    font-size: 20px;
+    text-shadow: 0 0 0.1em #ffffff, 0 0 0.1em #ffffff, 0 0 0.1em #ffffff;
 }
 
 #titulo-principal{
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
-    text-shadow: 0 0 0.2em #000000, 0 0 0.2em #000000, 0 0 0.2em #000000;
-
+    /* text-shadow: 0 0 0.2em #000000, 0 0 0.2em #000000, 0 0 0.2em #000000; */
     margin-top: 130px;
+    font-weight: bold;
+}
+
+#titulo-secundario{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    /* text-shadow: 0 0 0.2em #000000, 0 0 0.2em #000000, 0 0 0.2em #000000; */
+}
+
+.fotoEntregaChave{
+    border-radius: 85px;
+    margin-top: 20px;
 }
 
 .imagem-carrosel {
@@ -30,28 +51,42 @@ nav a{
     object-position: 0 60%;
     /* ajusta tamanho */
     width: 100%!important;
-    height: 400px;
+    height: 470px;
     border-radius: 30px;
 
-    /* padding: 1%; */
+    margin-top: 150px;
 }
 
 .texto-sombreado{
     text-shadow: 0 0 0.2em #000000, 0 0 0.2em #000000, 0 0 0.2em #000000;
 }
 
+
+#texto2{
+    color: white;
+    text-align: center;
+}
+
 .card-posicao-imagem {
     object-fit: cover;
-    height: 250px;
+    height: 200px;
 }
 
 .btn-detalhes{
-    background-color: lightgoldenrodyellow;
-    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(251, 255, 0);
+    /* border: 3px solid rgb(0, 0, 0); */
     border-radius: 5px;
     color: black;
     display: flex;
     justify-content: center;
+}
+
+footer{
+    background-color: black;
+}
+
+footer p{
+    color: white;
 }
 
 @media only screen and (max-width: 800px){
