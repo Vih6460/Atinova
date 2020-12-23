@@ -1,0 +1,70 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Merriweather', serif;
+    width: 100%;
+    background-image: url(../img/3433814.jpg);
+    background-attachment: fixed!important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav{
+    background: rgb(255,255,0);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.349) 80%, rgb(240, 240, 0) 100%);
+    background-attachment: fixed;
+}
+
+nav a{
+    color: rgb(0, 0, 0)!important;
+    font-size: 20px;
+}
+
+.conteudo1{
+    margin-top: 00px!important;
+}
+
+.conteudo2{
+    margin-top: 120px;
+}
+
+.fotoEntregaChave{
+    height: 100%;
+    border-radius: 85px;
+}
+
+.texto-sombreado{
+    text-shadow: 0 0 0.2em #ffffff, 0 0 0.2em #ffffff, 0 0 0.2em #ffffff;
+}
+
+
+#texto2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+footer{
+    background-color: black;
+}
+
+footer p{
+    color: white;
+}
+
+@media only screen and (max-width: 990px){
+    .conteudo1{
+        margin-top: 20px!important;
+    }
+
+    .conteudo2{
+        margin-top: 20px!important;
+    }
+
+    .rodape{
+        display: none;
+    }
+}
